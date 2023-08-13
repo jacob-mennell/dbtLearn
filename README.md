@@ -1,5 +1,7 @@
 # Learn dbt Project 
 
+Repository aims to serve as valuable learning resources to grasp the fundamentals of dbt.
+
 ## Introduction to dbt (data build tool):
 
 **dbt**, or *data build tool*, is an open-source command-line tool that empowers analysts and data engineers to transform data in their data warehouse more effectively. It takes a modular and version-controlled approach to data transformation, enabling teams to collaboratively build, maintain, and document data pipelines. dbt simplifies the process of writing SQL code, organizing it into structured models, and managing dependencies.
@@ -14,11 +16,15 @@
 
 4. **Snapshots:** Snapshots in dbt are historical representations of your data that capture the state of your models at a specific point in time. They are useful for creating time-series analysis or preserving snapshots of data for auditing purposes.
 
-5. **Tests:** Tests in dbt are SQL expressions that are used to verify the quality and accuracy of your data transformations. They allow you to identify data anomalies, inconsistencies, and errors. Tests can include checks for data types, null values, duplicates, and more, ensuring that the transformed data meets expected standards.
+5. **Macros:** Macros in dbt are reusable SQL code snippets that can be invoked across models and other dbt files. They help standardize and simplify complex transformations, allowing you to achieve consistency and reusability in your codebase.
 
-6. **Docs:** dbt generates documentation for your data transformations automatically. Documentation includes descriptions of models, columns, sources, snapshots, tests, and seeds, making it easier for team members to understand the purpose and characteristics of each component in your data transformation process. Documentation helps maintain transparency and collaboration within the team.
+6. **Tests:** Tests in dbt are SQL expressions that are used to verify the quality and accuracy of your data transformations. They allow you to identify data anomalies, inconsistencies, and errors. Tests can include checks for data types, null values, duplicates, and more, ensuring that the transformed data meets expected standards.
 
-By utilizing dbt's modeling, sourcing, testing, snapshotting, seeding, and documentation capabilities, data teams can streamline their data transformation workflows, improve data quality, and enhance collaboration among team members.
+7. **Docs:** dbt generates documentation for your data transformations automatically. Documentation includes descriptions of models, columns, sources, snapshots, tests, seeds, and macros, making it easier for team members to understand the purpose and characteristics of each component in your data transformation process. Documentation helps maintain transparency and collaboration within the team.
+
+## Summary
+
+By utilizing dbt's modeling, sourcing, testing, snapshotting, seeding, macro, and documentation capabilities, data teams can streamline their data transformation workflows, improve data quality, and enhance collaboration among team members.
 
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
