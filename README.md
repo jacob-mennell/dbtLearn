@@ -26,6 +26,11 @@ Repository aims to serve as valuable learning resources to grasp the fundamental
 
 By utilizing dbt's modeling, sourcing, testing, snapshotting, seeding, macro, and documentation capabilities, data teams can streamline their data transformation workflows, improve data quality, and enhance collaboration among team members.
 
+### Code Clean Up Tips: 
+- First list import CTEs e.g. orders as, payments as (these should be relatively simple e.g. selects with where statemetns), then Logital CTEs, then Final CTEs, then simple SELECT statement.
+- Implement CTE with WITH to organise code
+- Rick click, command palette, make everything lowercase. Supports consistent code format.
+
 ### Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
